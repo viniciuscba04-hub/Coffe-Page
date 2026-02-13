@@ -182,7 +182,6 @@ section {
 }
 
 /* CONFIGURAÇÕES DA SEÇÃO MENU */
-
 .menu {
     margin: 5rem 20rem;
     display: flex;
@@ -242,4 +241,82 @@ section {
     text-align: center;
     color: #fff;
     font-size: 3rem;
+}
+
+
+/* CONFIGURAÇÕES DA SEÇÃO NOSSOS CLIENTES */
+.clientes {
+    margin-top: 6rem;
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+}
+
+.clientes-content {
+    margin: 5rem 20rem;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    color: #fff;
+    gap: 4rem;
+}
+
+.clientes-content div {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    height: 40rem;
+    width: 30rem;
+    position: relative;
+}
+
+.clientes-content div p {
+    font-size: 1.5rem !important;
+    margin-top: 8rem !important;
+    margin: 0 1rem;
+}
+
+.clientes-content div .foto {
+    border-radius: 100% !important;
+    margin-top: 2rem;
+}
+
+.clientes-content div h1 {
+    position: absolute;
+    font-family: "Fleur De Leah", cursive;
+    font-size: 10rem !important; 
+    margin-right: 2rem;
+}
+
+.clientes-content div img {
+    margin-top: 0.5rem;
+}
+
+.clientes-content div h6 {
+    margin-top: 1.5rem;
+}
+
+/*ENDEREÇO*/
+.address-container {
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+}
+
+.address {
+    margin-top: 2rem;
+}
+
+.icons-contact {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.icons-contact:hover {
+    cursor: pointer;
+
 }
