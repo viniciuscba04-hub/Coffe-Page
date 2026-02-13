@@ -1,4 +1,4 @@
-☕ Cafeteria Gourmet
+#☕ Cafeteria Gourmet
 
 Este é meu primeiro projeto em HTML e CSS, desenvolvido para praticar estruturação, estilização e layout de uma página web.
 
