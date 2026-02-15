@@ -1,7 +1,6 @@
 /* DECLARAÇÃO DE VARIÁVEIS GLOBAIS */   
 :root{
     --main-color: #d3ad7f;
-    --black-color: #13131a;
     --background-navbar: rgba(1, 1, 3, 0.6);
     --background-color: #010103;
     --border-color: 0.1rem solid rgba(255, 255, 255, 0.3);
@@ -16,8 +15,8 @@
     outline:none;
     border:none;
     text-decoration:none;
-    text-transform:capitalize;
     transition: 0.2s linear;
+    color:#fff;
 }
 
 /* CONFIGURAÇÕES DO HEADER */
@@ -26,31 +25,19 @@ body {
     background: var(--background-color);
 }
 
-section {
-    padding: 3rem 2rem;
-    margin: 0 auto;
-    max-width: 1200px;
-}
-
 .header {
     position:fixed;
     top:0; left:0; right:0;
     z-index: 99;
     border-bottom: var(--border-color);
-}
-
-.header section {
     display:flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    
 }
 
-.logo img:hover {
-    position: relative;
-    bottom: 1px;                                
+.logo img:hover {                           
     opacity: 0.9;
 }
 
@@ -63,13 +50,9 @@ section {
     font-size: 1.8rem;
 }
 
-.navbar a {
-    color:#fff;
-}
-
 .navbar a:hover {
     color: var(--main-color);
-    border-bottom: var(--main-color);
+    border-bottom: 1px solid var(--main-color);
     font-size: 1.9rem;
 }
 
@@ -78,7 +61,7 @@ section {
     width: 8.5rem;
     height: 4.5rem;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .icons img:hover {
@@ -92,7 +75,6 @@ section {
     background-color: var(--main-color);
     padding: 1rem 3rem;
     font-size: 1.7rem;
-    color: #fff;
     margin-top: 1rem;
     cursor: pointer;
     display: inline-block;
@@ -107,27 +89,21 @@ section {
     height: 100vh;
     background-position: center;
     background-size: cover; 
-}
-
-.home-container section {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     min-height: 100vh;
 }
 
-.content {
+.home-content {
     max-width: 60rem;
 }
 
-.content h3 {
-    color:#fff; 
+.home-content h3 {
     font-size: 6rem;
 }
 
-.content p {
-    text-transform: none;
-    color:#fff;
+.home-content p {
     font-size: 2rem;
     font-weight: 100;
     line-height: 1.8;
