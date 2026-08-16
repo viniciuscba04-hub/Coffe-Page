@@ -1,4 +1,4 @@
-# ☕ Coffe Page
+# Coffe Page
 
 Página web de uma cafeteria desenvolvida com **HTML5 e CSS3** durante meus estudos de desenvolvimento web.
 
@@ -137,54 +137,49 @@ Essa implementação permite apresentar a localização diretamente dentro da p�
 
 ## Estrutura do projeto
 
-Coffe-Page/
-│
-├── .idea/
-│
-├── coffe_dev/
-│   │
-│   ├── imagens/
-│   │   ├── about.jpg
-│   │   ├── address.png
-│   │   ├── face.png
-│   │   ├── home.jpg
-│   │   ├── instagram.png
-│   │   ├── logo.png
-│   │   ├── op1.jpg
-│   │   ├── op2.jpg
-│   │   ├── op3.jpg
-│   │   ├── op4.jpg
-│   │   ├── op5.jpg
-│   │   ├── op6.jpg
-│   │   ├── peoples1.jpg
-│   │   ├── peoples2.jpg
-│   │   ├── peoples3.jpg
-│   │   ├── search_icon.png
-│   │   ├── shoppingcart_icon.png
-│   │   ├── stars.png
-│   │   └── zap.png
-│   │
-│   ├── index.html
-│   └── style.css
-│
-├── .gitignore
-└── README.md
+A organização atual do projeto é:
 
-### index.html
+- `Coffe-Page/`
+  - `.idea/`
+  - `coffe_dev/`
+    - `imagens/`
+      - `about.jpg`
+      - `address.png`
+      - `face.png`
+      - `home.jpg`
+      - `instagram.png`
+      - `logo.png`
+      - `op1.jpg`
+      - `op2.jpg`
+      - `op3.jpg`
+      - `op4.jpg`
+      - `op5.jpg`
+      - `op6.jpg`
+      - `peoples1.jpg`
+      - `peoples2.jpg`
+      - `peoples3.jpg`
+      - `search_icon.png`
+      - `shoppingcart_icon.png`
+      - `stars.png`
+      - `zap.png`
+    - `index.html`
+    - `style.css`
+  - `.gitignore`
+  - `README.md`
+
+### `index.html`
 
 Arquivo responsável pela estrutura principal da página.
 
 Nele estão organizadas as seções, textos, imagens, links e demais elementos da interface.
 
-### style.css
+### `style.css`
 
 Arquivo responsável pela estilização da página, incluindo layout, tipografia, cores, espaçamentos, imagens e demais características visuais.
 
-### imagens/
+### `imagens/`
 
 Diretório utilizado para armazenar as imagens utilizadas na página.
-
----
 
 ## Navegação
 
